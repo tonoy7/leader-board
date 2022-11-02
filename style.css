@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container {
+  justify-content: center;
+  width: 870px;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 30px;
+  padding-bottom: 0;
+  background-color: white;
+}
+.section-title {
+  color: #562eff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+}
+.players {
+  justify-content: center;
+  margin: 25px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.player {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.player img {
+  height: 56px;
+  width: 56px;
+}
+.player-name {
+  margin: 0 15px;
+}
+hr {
+  border-top: 1px solid #d1d1d1d0;
+  margin: 30px 2px;
+}
+.blogs {
+  margin: 25px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blog {
+  display: flex;
+}
+.blog img {
+  height: 117px;
+  width: 177px;
+  margin-bottom: 26px;
+}
+.blog-info {
+  padding: 0px 30px 0px 20px;
+}
+.blog-title {
+  font-size: 20px;
+  line-height: 34px;
+}
+.blog-author {
+  color: rgb(180, 180, 180);
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+}
+.course-thumbnail img {
+  height: 104px;
+  width: 244px;
+}
+.course-author {
+  color: #ed6b4f;
+  font-weight: 200;
+  font-size: 15px;
+}
+.courses {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  padding: 5px 10px 30px;
+}
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* .course-title {
+  font-size: 20px;
+  line-height: 34px;
+} */
+.course-author {
+  padding: 5px 0px;
+  font-size: 15px;
+}
+.dezig {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 5px;
+}
+.filled {
+  color: gold;
+}
+.empty {
+  color: #aeaeae;
+}
+.time {
+  border: none;
+  border-radius: 15px;
+  padding: 2px 10px;
+  color: #ff4a60;
+  background-color: #ffe4e8;
+  text-align: center;
+}
