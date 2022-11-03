@@ -63,7 +63,7 @@ hr {
   flex-direction: row;
   margin-bottom: 30px;
 }
-.blog img {
+.blog-thumbnail img {
   height: 117px;
   width: 177px;
 }
@@ -91,7 +91,7 @@ a {
 .course {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   padding: 15px 10px;
   margin: 10px;
   border: none;
@@ -131,14 +131,15 @@ a {
   padding: 2px 10px;
   color: #ff4a60;
   background-color: #ffe4e8;
+  /* margin-left: 40px; */
 }
 .foot {
   text-align: center;
   margin-top: 2em;
-  color: #ff4a60;
+  color: #af3443;
 }
 .foot a {
-  color: #ff4a60;
+  color: #af3443;
 }
 @media only screen and (max-width: 767px) {
   .container {
